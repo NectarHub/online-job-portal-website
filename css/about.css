@@ -152,10 +152,18 @@
   .col-padding {
     margin-left: 15%;
   }
+  
 }
 
 /* Styles for small screens (up to 767px) */
 @media (max-width: 767px) {
+  .about-team .team-member-container img {
+  width: 70%;
+  height: auto;
+  object-fit: cover;
+  padding-top: 5%;
+  border-radius: 5px;
+}
   .contactIntro {
     margin-bottom: 2%;
     margin-top: 2%;
