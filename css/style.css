@@ -622,6 +622,9 @@ a.header-link {
   .location-category {
     display: block;
   }
+  .register-caption2{
+    font-size: 1.5rem !important;
+  }
 }
 
 @media (max-width: 320px) {
@@ -633,6 +636,8 @@ a.header-link {
   .btn-job-search {
     min-width: 220px;
   }
+
+  
 }
 
 /* Style for preloading page  */
