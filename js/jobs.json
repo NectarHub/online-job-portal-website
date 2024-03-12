@@ -1,0 +1,237 @@
+{
+    "jobs": [
+        {
+            "title": "Packaging Operator",
+            "company": "Heineken",
+            "category": "5",
+            "industry": "1",
+            "experience": "2",
+            "salary": "480000",
+            "location": "Hmawbi | Yangon",
+            "date": "28 Mar, 2024",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job1-detail.html"
+        },
+        {
+            "title": "Mechanical Technician",
+            "company": "Heineken",
+            "category": "4",
+            "industry": "1",
+            "experience": "1",
+            "salary": "400000",
+            "location": "Hmawbi | Yangon",
+            "date": "01 Mar, 2024 ",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job2-detail.html"
+        },
+        {
+            "title": "Otc Administrator",
+            "company": "Heineken",
+            "category": "1",
+            "industry": "1",
+            "experience": "3",
+            "salary": "600000",
+            "location": "Pabedan | Yangon",
+            "date": "01 Mar, 2024",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job3-detail.html"
+        },
+        {
+            "title": "Demand Planner",
+            "company": "Heineken",
+            "category": "0",
+            "industry": "1",
+            "experience": "1",
+            "salary": "650000",
+            "location": "Pabedan | Yangon",
+            "date": "25 March, 2024",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job4-detail.html"
+        },
+        {
+            "title": "Outlet Acquisition Executive (MONT)",
+            "company": "Heineken",
+            "category": "0",
+            "industry": "1",
+            "experience": "3",
+            "salary": "650000",
+            "location": "Yankin | Yangon",
+            "date": "26 Mar, 2024",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job5-detail.html"
+        },
+        {
+            "title": "Key Account Manager (MONT)",
+            "company": "Heineken",
+            "category": "0",
+            "industry": "1",
+            "experience": "3",
+            "salary": "700000",
+            "location": "Pabedan | Yangon",
+            "date": "06 Mar, 2024",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job6-detail.html"
+        },
+        {
+            "title": "Commercial Business Control Analyst",
+            "company": "Heineken",
+            "category": "1",
+            "industry": "1",
+            "experience": "2",
+            "salary": "450000",
+            "location": "Pabedan | Yangon",
+            "date": "03 Mar, 2024",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job7-detail.html"
+        },
+        {
+            "title": "Draught Beer Service Technician",
+            "company": "Heineken",
+            "category": "4",
+            "industry": "1",
+            "experience": "2",
+            "salary": "450000",
+            "location": "Yankin | Yangon",
+            "date": "01 May, 2024",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job8-detail.html"
+        },
+        {
+            "title": "Brewing Operator",
+            "company": "Heineken",
+            "category": "5",
+            "industry": "1",
+            "experience": "1",
+            "salary": "350000",
+            "location": "Yankin | Yangon",
+            "date": "11 Mar, 2024 ",
+            "logo": "Companies/Heineken/images/hlo.jpg",
+            "detailLink": "Companies/Heineken/job9-detail.html"
+        },
+        {
+            "title": "Assistant Manager,Statutory Reporting",
+            "company": "ATOM",
+            "category": "1",
+            "industry": "2",
+            "experience": "3",
+            "salary": " 450,000 ",
+            "location": "Kyauktada | Yangon",
+            "locationID" :"0",
+            "date": "15 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job1-detail.html"
+        },
+
+        {
+            "title": "Asst Manager/Manager, Channel Management (Bago)",
+            "company": "ATOM",
+            "category": "0",
+            "industry": "2",
+            "experience": "2",
+            "salary": " 400,000 ",
+            "location": " Bago | Bago Region",
+            "locationID" :"2",
+            "date": " 20 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job2-detail.html"
+        },
+
+        {
+            "title": "Senior Manager, Senior Business Analyst",
+            "company": "ATOM",
+            "category": "0",
+            "industry": "2",
+            "experience": "3",
+            "salary": " 500,000 ",
+            "location": " Kyauktada | Yangon",
+            "locationID" :"0",
+            "date": " 23 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job3-detail.html"
+        },
+
+
+        {
+            "title": "Finance & Accounting Lead",
+            "company": "ATOM",
+            "category": "1",
+            "industry": "2",
+            "experience": "3",
+            "salary": " 650,000 ",
+            "location": " Kyauktada | Yangon",
+            "locationID" :"0",
+            "date": " 17 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job4-detail.html"
+        },
+
+        {
+            "title": "Operations Lead",
+            "company": "ATOM",
+            "category": "10",
+            "industry": "2",
+            "experience": "3",
+            "salary": "650000",
+            "location": " Kyauktada | Yangon",
+            "locationID" :"0",
+            "date": " 23 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job5-detail.html"
+        },
+
+        {
+            "title": "Asst. Manager/Manager,IT Infrastructure & Security",
+            "company": "ATOM",
+            "category": "3",
+            "industry": "2",
+            "experience": "3",
+            "salary": " 500,000 ",
+            "location": " Kyauktada | Yangon",
+            "locationID" :"0",
+            "date": " 19 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job6-detail.html"
+        },
+        {
+            "title": "Sr. Manager, Geo Marketing Analytics",
+            "company": "ATOM",
+            "category": "10",
+            "industry": "2",
+            "experience": "3",
+            "salary": " 570,000 ",
+            "location": " Kyauktada | Yangon",
+            "locationID" :"0",
+            "date": " 19 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job7-detail.html"
+        },
+
+        {
+            "title": "Head Of Value Management Desk",
+            "company": "ATOM",
+            "category": "8",
+            "industry": "2",
+            "experience": "3",
+            "salary": " 700,000 ",
+            "location": " Kyauktada | Yangon",
+            "locationID" :"0",
+            "date": " 13 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job8-detail.html"
+        },
+        {
+            "title": "Manager, Call Center Service Quality Assurance",
+            "company": "ATOM",
+            "category": "8",
+            "industry": "2",
+            "experience": "3",
+            "salary": " 450,000 ",
+            "location": " Kyauktada | Yangon",
+            "locationID" :"0",
+            "date": " 14 March, 2024 ",
+            "logo": "Companies/ATOM/images/thumb.png",
+            "detailLink": "Companies/ATOM/job9-detail.html"
+        }
+
+    ]
+}

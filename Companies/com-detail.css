@@ -1,0 +1,312 @@
+:root {
+    /* fot light theme  */
+    --bg1: #fffffe;
+    --bg2: #fde9f6;
+    --bg-nav: #fde9f6;
+    --landing-bg-color: var(--bg1);
+    --footer-bg: #253036;
+    --bg-card1: #ffffff;
+    --bg-category: #ffffff;
+    --bg-card2: #baf7f4;
+    --primary-purple: #6a38c2;
+    --secondary-orange: #fa4e09;
+    --toggle-btn-color: #501875;
+  
+    --footer-text-color: #ffffff;
+    --btn-text-color: #ffffff;
+    --text-color1: #212121;
+    --text-color2: #47106c;
+    --text-color3: #00008b;
+    --text-color4: #6e6464;
+    --text-color5: #000000;
+    --text-color6: #b8bfc3;
+    --text-color7: #8b92dd;
+    --text-color8: #47106c;
+    --text-color9: #6a38c2;
+    --text-color10: #47106c;
+  
+    --shadow1: rgba(0, 0, 0, 0.15);
+    --shadow2: rgba(0, 0, 0, 0.15);
+    --shadow3: rgba(31, 43, 123, 0.8);
+  
+    /* font family  */
+    --header-font: "Signika", sans-serif;
+    --font2: "Dosis", sans-serif;
+    --font3: "Raleway", sans-serif;
+  }
+  
+  .dark-mode {
+    --bg1: #0c011b;
+    --bg2: #1a0635;
+    --bg-nav: #240333;
+    --landing-bg-color: var(--bg1);
+    --footer-bg: #0c011b;
+    --bg-card1: #0c011b;
+    --bg-card2: rgb(146, 243, 239);
+    --bg-category: #0c011b;
+  
+    --primary-purple: #6a38c2;
+    --secondary-orange: #e6490b;
+    --toggle-btn-color: #a366cb;
+  
+    --footer-text-color: #c6b6b6;
+    --btn-text-color: #ffffff;
+    --text-color1: #e8dffb;
+    --text-color2: #8032b3;
+    --text-color3: #6062c9;
+    --text-color4: #e2c3c3;
+    --text-color5: #cac5d5;
+    --text-color6: #556f86;
+    --text-color7: #8b92dd;
+    --text-color8: #dcb3f7;
+    --text-color9: #6a38c2;
+    --text-color10: #3a0f7f;
+  
+    --shadow1: rgba(0, 0, 0, 0.15);
+    --shadow2: rgba(0, 0, 0, 0.15);
+    --shadow3: rgba(31, 43, 123, 0.8);
+  }
+
+/*header background image*/
+.header-img-container {
+    position: relative;
+    background-color: var(--bg2);
+}
+
+.header-img {
+    height: calc(((100vw) / 1903) * 350);
+    min-height: 250px;
+    max-height: 300px;
+
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+/*company name*/
+.header-title {
+    padding-top: 15px;
+    border-bottom: 2px solid #E4E3E5;
+    position: relative;
+}
+
+.header-title h2 {
+    padding-left: 170px;
+    font-weight: 530;
+    color: var(--secondary-text-color)
+}
+
+.header-title a {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/*company logo*/
+.header-thumbnail {
+    display: block;
+    background-color: white;
+    width: 145px;
+    max-width: 145px;
+    height: 145px;
+    max-height: 145px;
+    border-radius: 8px;
+}
+
+.about-company {
+    padding-top: 30px;
+}
+
+.about-company .card {
+    padding: 20px;
+    background-color: var(--bg2);
+}
+
+.about-company .divider {
+    height: 1px;
+    background-color: var(--primary-purple);
+}
+
+.about-company h4 {
+    font-weight: 500;
+}
+/*jobs offered by company - short info*/
+.company-job-offer {
+    border-right: 2px solid var(--primary-purple);
+    padding-bottom: 12px;
+    display: block;
+}
+
+.company-job-offer:last-of-type {
+    border-right: 0px;
+}
+
+.company-job-offer a {
+    color: var(--text-color5);
+}
+
+.company-job-offer .job-title {
+    height: 60px;
+}
+
+.about-company .see-all {
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    color: #2d59a7;
+}
+
+/*gallery*/
+.about-company-images {
+    height: auto;
+    max-height: 380px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.about-company-images img {
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.about-lg-img {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-other-imgs {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-other-imgs div {
+    width: 50%;
+    height: 50%;
+}
+
+.about-other-imgs div:nth-of-type(odd) {
+    padding-right: 8px;
+}
+
+.about-other-imgs div:nth-of-type(even) {
+    padding-left: 8px;
+}
+
+.about-sm-imgs-container {
+    /*inititally not displayed - displayed on only small screen*/
+    display: none;
+}
+
+.about-sm-imgs {
+    height: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+/*gallery ends*/
+
+
+/*about company*/
+.about1 {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: var(--text-color3);
+}
+
+.about1 i {
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.what-we-do {
+    border-top: 2px solid var(--primary-purple);
+}
+
+@media (max-width: 1200px) {
+    .about-company-images {
+        height: 300px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-company-images {
+        height: 280px;
+    }
+}
+
+@media (max-width: 820px) {
+    .header-thumbnail {
+        top: -160%;
+    }
+
+    .about-company-images {
+        height: 250px;
+    }
+
+    .about-other-imgs div:nth-of-type(even) {
+        display: none;
+    }
+
+    .about-other-imgs div {
+        width: 100%;
+    }
+
+    .about-company .company-job-offer {
+        border-right: 0;
+        border-bottom: 2px solid var(--primary-purple);
+    }
+
+    .company-job-offer .job-title {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .about-company .divider {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .about-company-images {
+        height: 200px;
+    }
+
+    .about-lg-img,
+    .about-other-imgs {
+        display: none;
+    }
+
+    .about-sm-imgs-container {
+        display: block;
+    }
+
+    .company-details>div:first-child {
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--primary-purple);
+    }
+}
+
+@media (max-width: 500px) {
+    .header-thumbnail {
+        width: 120px;
+        height: 120px;
+        top: -130%;
+    }
+
+    .header-title h2 {
+        padding-left: 135px;
+    }
+}
+
+@media (max-width: 430px) {
+    .about-company-images {
+        height: 150px;
+    }
+
+    .about-sm-imgs div:first-child {
+        display: none;
+    }
+}

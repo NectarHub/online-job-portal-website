@@ -1,0 +1,74 @@
+{
+  "Users": [
+    {
+      "id": "6605",
+      "username": "Nectar1",
+      "email": "wutyikyaw.2002@gmail.com",
+      "password": "hello123"
+    },
+    {
+      "id": "5a68",
+      "username": "Min Khant Nyar 57",
+      "email": "minkhanttttt555@gmail.com",
+      "password": "MINKHANT777"
+    }
+  ],
+  "id": [
+    {
+      "id": "6605",
+      "username": "Nectar1",
+      "email": "wutyikyaw.2002@gmail.com",
+      "password": "hello123"
+    },
+    {
+      "id": "5a68",
+      "username": "Min Khant Nyar 57",
+      "email": "minkhanttttt555@gmail.com",
+      "password": "MINKHANT777"
+    }
+  ],
+  "applications": [
+    {
+      "id": "8a42",
+      "username": "Wut Yi Kyaw",
+      "email": "wutyikyaw.2002@gmail.com",
+      "phoneNumber": "09791027273",
+      "message": ""
+    },
+    {
+      "id": "c204",
+      "username": "Wut Yi Kyaw",
+      "email": "wutyikyaw.2002@gmail.com",
+      "phoneNumber": "09791027273",
+      "message": "message sent to employer"
+    },
+    {
+      "id": "1aa2",
+      "username": "Wut Yi Kyaw",
+      "email": "wutyikyaw.2002@gmail.com",
+      "phoneNumber": "09791027273",
+      "message": "sdsds"
+    },
+    {
+      "id": "9b1c",
+      "username": "Wut Yi Kyaw",
+      "email": "wutyikyaw.2002@gmail.com",
+      "phoneNumber": "09791027273",
+      "message": "fsfsfs"
+    },
+    {
+      "id": "6608",
+      "username": "Wut Yi Kyaw",
+      "email": "wutyikyaw@utycc.edu.mm",
+      "phoneNumber": "09791027273",
+      "message": ""
+    },
+    {
+      "id": "795a",
+      "username": "Wut Yi Kyaw",
+      "email": "wutyikyaw.2002@gmail.com",
+      "phoneNumber": "09775929771",
+      "message": ""
+    }
+  ]
+}

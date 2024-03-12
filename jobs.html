@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job&Jive</title>
+    <link rel="shortcut icon" href="images/job&jiveicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/nav-style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/job-search.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Signika&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    </style>
+
+    <script src="https://kit.fontawesome.com/54f7da0b02.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="navbar-container">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <div class="nav-center">
+                    <!-- nav header -->
+                    <div class="d-flex justify-content-between">
+                        <a class="navbar-brand pageTitle href=" #">Job&<span class="jive">Jive</span></a>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="nav-item mx-sm-2 first-mode-toggler">
+                                <img id="dark-mode-toggle" class="dark-mode-toggle " src="images/moon.png" alt=""
+                                    id="toggle-icon">
+                            </div>
+                            <button class="nav-toggle p-2">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </div>
+
+                    </div>
+                    <!-- page links -->
+                    <ul class="links align-items-center">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="category.html" class="nav-link">Category</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="companies.html" class="nav-link">Companies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item toggle-login" id="login-small">
+                            <a href="login.html" class="nav-link">Login</a>
+                        </li>
+                        <li class="nav-item toggle-login none" id="logout-small">
+                            <a href="#" class="nav-link">Logout</a>
+                        </li>
+                        <li class="nav-item toggle-login">
+                            <a href="signup.html" class="nav-link">Sign Up</a>
+                        </li>
+                        <li class="nav-item mx-sm-2" id="dark-mode-toggle-container">
+                            <img id="dark-mode-toggle-large" class="dark-mode-toggle " src="images/moon.png" alt=""
+                                id="toggle-icon">
+                        </li>
+                    </ul>
+                    <!-- login/singup -->
+                    <ul class="login-signup">
+                        <li>
+                            <a href="#" id="logout" class="logout none ">Logout
+                            </a>
+                        </li>
+                        <li>
+                            <a href="login.html" id="login" class="login">Login
+                            </a>
+                        </li>
+                        <li class="signup-btn ml-2 mb-sm-1">
+                            <a href="signup.html">Sign Up</a>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container jobs-search">
+        <div>
+            <form>
+                <div class="sub-heading">Find A <span class="orange-text">Job</span> That
+                    Matches Your <span class="orange-text">Passion</span></div>
+                <div class="search-box-container row gy-3">
+                    <div class="col-lg-10 col-md-12">
+                        <div class="row gy-2">
+                            <div class="col-md-4">
+                                <input type="text" class="form-control search-input" id="job-search-keyword"
+                                    placeholder="All Positions, Companies, Keywords" name="job-search-keyword">
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select search-input" id="job-search-category"
+                                    aria-label="Default select example" name="job-search-category">
+                                    <option value="-1" selected class="category-option">Category</option>
+
+                                    <option value="0" class="category-option">Sales, Business Development</option>
+                                    <option value="1" class="category-option">Finance, Accounting, Audit</option>
+                                    <option value="2" class="category-option">Marketing, Media, Creative</option>
+                                    <option value="3" class="category-option">IT Hardware, Software</option>
+                                    <option value="4" class="category-option">Engineering, Technical</option>
+                                    <option value="5" class="category-option">Manufacturing, Factory</option>
+                                    <option value="6" class="category-option">HR, Training and Recruitment</option>
+                                    <option value="7" class="category-option">Administrative</option>
+                                    <option value="8" class="category-option">Customer Service, Support</option>
+                                    <option value="9" class="category-option">Teaching, Education, Childcare</option>
+                                    <option value="10" class="category-option">Project, Operations Management</option>
+                                    <option value="11" class="category-option">Logistics, Warehousing, Port</option>
+                                    <option value="12" class="category-option">Medical, Nursing, Pharmacy</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-select search-input" id="job-search-location"
+                                    aria-label="Default select example">
+                                    <option selected value="-1">Location</option>
+                                    <option value="0">Yangon</option>
+                                    <option value="1">Mandalay</option>
+                                    <option value="2">Nay Pyi Taw</option>
+                                    <option value="3">Sagaing Division</option>
+                                    <option value="4">Ayayarwady Division</option>
+                                    <option value="5">Bago Division</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 flex-center">
+                        <button class="btn-job-search job-search-button"
+                            style="background-color: var(--text-color-3);">Find Jobs</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--job offers-->
+    <div class="container-fluid job-offer-container-fluid">
+        <div class="container pt-5">
+            <div class="job-offer-container">
+                <div class="filter-section">
+                    <form>
+                        <h5 class="filter-text">Filters</h5>
+                        <div class="flex-around py-2">
+                            <input type="reset" value="Clear all" id="resetBtn">
+                            <button class="my-btn" id="filter-apply">Apply</button>
+                        </div>
+                        <div class="border-bottom"></div>
+                        <div class="flex-around industries py-2">
+                            <span>Industries</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="industries-choices">
+                            <div>
+                                <input type="radio" name="industry" value="-1" id="any" checked>
+                                <label for="any">Any</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="industry" value="0" id="in1">
+                                <label for="in1">Banking/Insurance</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="industry" value="1" id="in2">
+                                <label for="in2">Food and Beverage</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="industry" value="2" id="in3">
+                                <label for="in3">Telecommunications</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="industry" value="3" id="in4">
+                                <label for="in4">Education/Training</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="industry" value="4" id="in5">
+                                <label for="in5">Construction/Building</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="industry" value="5" id="in6">
+                                <label for="in6">IT Software & Hardware</label>
+                            </div>
+                        </div>
+                        <div class="flex-around experience py-2">
+                            <span>Experience</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="experience-choices">
+                            <div>
+                                <input type="radio" name="experience" value="-1" id="any" checked>
+                                <label for="any">Any</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="experience" value="0" id="entry">
+                                <label for="entry">Entry</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="experience" value="1" id="junior">
+                                <label for="junior">Junior</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="experience" value="2" id="mid">
+                                <label for="mid">Mid-Level</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="experience" value="3" id="senior">
+                                <label for="senior">Senior</label>
+                            </div>
+                        </div>
+                        <div class="flex-around salary-box py-2">
+                            <span>Minimum Salary</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                        <div class="salary-input">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" id="minSalary" placeholder="Salary">
+                                <button class="btn btn-secondary">MMK</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="job-offer-list">
+                    <a href="Companies/Heineken/job2-detail.html" target="_blank" class="job-offer">
+                        <img src="Companies/Heineken/images/hlo.jpg">
+                        <div class="flex-grow">
+                            <div class="flex-row">
+                                <div class="flex-grow">
+                                    <h5 class="job-title">Mechanical Technician</h5>
+                                </div>
+                                <div>
+                                    <div class="my-btn btn-view view-1">View Detail</div>
+                                </div>
+                            </div>
+                            <div class="company">Heineken</div>
+                            <div class="second-flex-row mt-2">
+                                <div class="flex-grow">
+                                    <div class="location-category">
+                                        <div><i class="fa-solid fa-location-dot"></i> Yangon</div>
+                                        <div><i class="fa-regular fa-folder"></i> Engineering, Technical
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-calendar-days"></i> Date Line: 01 Mar, 2024</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="Companies/KBZ/job3-detail.html" target="_blank" class="job-offer">
+                        <img src="Companies/KBZ/images/thumb.png">
+                        <div class="flex-grow">
+                            <div class="flex-row">
+                                <div class="flex-grow">
+                                    <h5 class="job-title">UI/UX Design Specialist</h5>
+                                </div>
+                                <div>
+                                    <div class="my-btn btn-view view-1">View Detail</div>
+                                </div>
+                            </div>
+                            <div class="company">KBZ Bank</div>
+                            <div class="second-flex-row mt-2">
+                                <div class="flex-grow">
+                                    <div class="location-category">
+                                        <div><i class="fa-solid fa-location-dot"></i> Yangon</div>
+                                        <div><i class="fa-regular fa-folder"></i> IT, Hardware and Software
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-calendar-days"></i> Date Line: 27 March, 2024</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="Companies/MIU/job2-detail.html" target="_blank" class="job-offer">
+                        <img src="Companies/MIU/images/thumb.png">
+                        <div class="flex-grow">
+                            <div class="flex-row">
+                                <div class="flex-grow">
+                                    <h5 class="job-title">Operation Supervisor</h5>
+                                </div>
+                                <div>
+                                    <div class="my-btn btn-view view-1">View Detail</div>
+                                </div>
+                            </div>
+                            <div class="company">Myanmar Imperial University</div>
+                            <div class="second-flex-row mt-2">
+                                <div class="flex-grow">
+                                    <div class="location-category">
+                                        <div><i class="fa-solid fa-location-dot"></i> Yangon</div>
+                                        <div><i class="fa-regular fa-folder"></i> Project, Operations Management
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-calendar-days"></i> Date Line: 15 May 2024</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="Companies/Young/job3-detail.html" target="_blank" class="job-offer">
+                        <img src="Companies/Young/images/icon.png">
+                        <div class="flex-grow">
+                            <div class="flex-row">
+                                <div class="flex-grow">
+                                    <h5 class="job-title">Admin Assistant</h5>
+                                </div>
+                                <div>
+                                    <div class="my-btn btn-view view-1">View Detail</div>
+                                </div>
+                            </div>
+                            <div class="company">Young Investment Group</div>
+                            <div class="second-flex-row mt-2">
+                                <div class="flex-grow">
+                                    <div class="location-category">
+                                        <div><i class="fa-solid fa-location-dot"></i> Yangon</div>
+                                        <div><i class="fa-regular fa-folder"></i> Administrative
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-calendar-days"></i> Date Line: 15 March 2024</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="Companies/coca-cola/job3-detail.html" target="_blank" class="job-offer">
+                        <img src="Companies/coca-cola/images/thumb.png">
+                        <div class="flex-grow">
+                            <div class="flex-row">
+                                <div class="flex-grow">
+                                    <h5 class="job-title">Business Analyst</h5>
+                                </div>
+                                <div>
+                                    <div class="my-btn btn-view view-1">View Detail</div>
+                                </div>
+                            </div>
+                            <div class="company">Coca-cola</div>
+                            <div class="second-flex-row mt-2">
+                                <div class="flex-grow">
+                                    <div class="location-category">
+                                        <div><i class="fa-solid fa-location-dot"></i> Yangon</div>
+                                        <div><i class="fa-regular fa-folder"></i> Sales, Business Development
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-calendar-days"></i> Date Line: 3 April 2024</div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="Companies/Atom/job4-detail.html" target="_blank" class="job-offer">
+                        <img src="Companies/Atom/images/thumb.png">
+                        <div class="flex-grow">
+                            <div class="flex-row">
+                                <div class="flex-grow">
+                                    <h5 class="job-title">Finance & Accounting Lead</h5>
+                                </div>
+                                <div>
+                                    <div class="my-btn btn-view view-1">View Detail</div>
+                                </div>
+                            </div>
+                            <div class="company">ATOM Myanmar</div>
+                            <div class="second-flex-row mt-2">
+                                <div class="flex-grow">
+                                    <div class="location-category">
+                                        <div><i class="fa-solid fa-location-dot"></i> Yangon</div>
+                                        <div><i class="fa-regular fa-folder"></i> Finance, Accounting, Audit
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-calendar-days"></i> Date Line: 17 March, 2024 </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="Companies/Atom/job9-detail.html" target="_blank" class="job-offer">
+                        <img src="Companies/Atom/images/thumb.png">
+                        <div class="flex-grow">
+                            <div class="flex-row">
+                                <div class="flex-grow">
+                                    <h5 class="job-title">Manager, Call Center Service Quality Assurance </h5>
+                                </div>
+                                <div>
+                                    <div class="my-btn btn-view view-1">View Detail</div>
+                                </div>
+                            </div>
+                            <div class="company">ATOM Myanmar</div>
+                            <div class="second-flex-row mt-2">
+                                <div class="flex-grow">
+                                    <div class="location-category">
+                                        <div><i class="fa-solid fa-location-dot"></i> Yangon</div>
+                                        <div><i class="fa-regular fa-folder"></i> Customer Service, Support
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-calendar-days"></i> Date Line: 14 March, 2024 </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="Companies/coca-cola/job8-detail.html" target="_blank" class="job-offer">
+                        <img src="Companies/coca-cola/images/thumb.png">
+                        <div class="flex-grow">
+                            <div class="flex-row">
+                                <div class="flex-grow">
+                                    <h5 class="job-title">Warehouse Executive</h5>
+                                </div>
+                                <div>
+                                    <div class="my-btn btn-view view-1">View Detail</div>
+                                </div>
+                            </div>
+                            <div class="company">Coca-cola</div>
+                            <div class="second-flex-row mt-2">
+                                <div class="flex-grow">
+                                    <div class="location-category">
+                                        <div><i class="fa-solid fa-location-dot"></i> Yangon</div>
+                                        <div><i class="fa-regular fa-folder"></i>Logistics, Warehousing, Port
+                                        </div>
+                                    </div>
+                                </div>
+                                <div><i class="fa-solid fa-calendar-days"></i> Date Line: 10 April 2024 </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Links-->
+    <div class="container-fluid  footer-links">
+        <div class="container mt-5">
+            <div class="row pb-4 gy-3">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4>Company</h4>
+                    <nav>
+                        <a href="about.html"><i class="fa-solid fa-angle-right footer-icon"></i>About Us</a>
+                        <a href="contact.html"><i class="fa-solid fa-angle-right footer-icon"></i>Contact Us</a>
+                        <a href="#"><i class="fa-solid fa-angle-right footer-icon"></i>Privacy Policy</a>
+                        <a href="#"><i class="fa-solid fa-angle-right footer-icon"></i>Terms & Conditions</a>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4>Quick Links</h4>
+                    <nav>
+                        <a href="jobs.html"><i class="fa-solid fa-angle-right footer-icon"></i>Browse Jobs</a>
+                        <a href="companies.html"><i class="fa-solid fa-angle-right footer-icon"></i>See Employeers</a>
+                        <a href="#uploadcv"><i class="fa-solid fa-angle-right footer-icon"></i>Upload CV</a>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4>Contact</h4>
+                    <div class="contact-info"><i class="fa-solid fa-location-dot footer-icon"
+                            style="padding-right: 10px;"></i>Pyin Oo Lwin, Myanmar</div>
+                    <div class="contact-info"><i class="fa-solid fa-phone footer-icon"></i>+959798997401</div>
+                    <div class="contact-info"><i class="fa-solid fa-envelope footer-icon"
+                            style="padding-right: 8px;"></i>job&jive@gmail.com</div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 pt-3">
+                    <img src="images/job-net-logo.png">
+
+                    <div class="contact-info mt-4">Copyright &copy; 2024 job&jive.mm.com</div>
+                </div>
+            </div>
+            <div class="bottom-line"></div>
+            <p class="pt-3">&copy; <a href="index.html" class="header-link">JobFinder</a>
+                All Right Reserved. Designed By Second Year B1 Group</p>
+        </div>
+    </div>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/jobSearch.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
